@@ -2,21 +2,21 @@
     margin:0.0em;
     padding:0.0em
 } 
-body{
-    background-color:darkgray;
+*{
+    font-family:"Roboto Mono",monospace;
+    font-size: 1rem;
+    background-color: #2a2f3d;
+    color: white;
 }
-.reference{font-style:italic;padding:1em;border:1px solid aqua;margin:1em;}
-
-.text{font-style:normal;padding:1em;border:1px solid aqua;margin:1em;}
 
 .italic{
     font-style: italic;
 }
-
+.indented{
+    margin-left: 5em;
+}
 .ul{
     list-style-type:circle;
-    margin: 0em;
-    padding: 0em;
 }
 
 .centre{
