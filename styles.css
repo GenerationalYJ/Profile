@@ -7,20 +7,11 @@
     font-size: 1.15rem;
     background-color: #2a2f3d;
     color: white;
+    text-align: center;
 }
 
 .italic{
     font-style: italic;
-}
-.indented{
-    margin-left: 5em;
-}
-.ul{
-    list-style-type:circle;
-}
-
-.centre{
-   text-align: center;
 }
 
 .strong{
