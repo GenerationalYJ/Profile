@@ -4,10 +4,11 @@
   color: white;
 }
 .container{
-  width: 31rem;
+  width: 98.5vw;
+  height: 98.5vh;
   margin: auto;
-  text-align: left;
-  padding-top: 23vh;
+  text-align: center;
+  padding-top: 22.5vh;
 }
 .small-headings{
   font-size: 2rem;
@@ -24,7 +25,9 @@
   color: #fdaf39;
 }
 .nav{
-  padding: 2em;
+  font-size: 1.5rem;
+  padding: 2rem;
   display: inline;
-  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
 }
