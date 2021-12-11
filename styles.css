@@ -20,8 +20,6 @@
   flex-direction: column;
   display: flex;
   justify-content: center;
-  
-  
 }
 .small-headings{
   font-size: 1.5rem;
@@ -45,10 +43,13 @@
   color: #fdaf39;
   text-decoration: none;
 }
-a:hover{
+.nav:hover{
   text-decoration: transparent;
-  color: aqua;
+  color: #fdaf39;
 }
 .links{
   margin-top: 2em;
+}
+.socials:hover{
+  color: white;
 }
