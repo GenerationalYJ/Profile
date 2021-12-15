@@ -1,5 +1,5 @@
 *{
-  background-color: #2a2f3d;;
+  background-color: #2d2f36;
   font-family:"Roboto Mono",monospace;
   box-sizing: border-box;
   min-height: fit-content;
@@ -10,7 +10,7 @@
 }
 .my-name{
   color: white;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 2rem;
 }
 .container{
@@ -22,30 +22,30 @@
   justify-content: center;
 }
 .small-headings{
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0;
-  color: #fdaf39;
+  color: aqua;
 }
 .webdev{
   padding-bottom: 1.25em;
 }
 .nav{
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0.5rem;
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
 .socials{
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 0.5rem;
-  color: #fdaf39;
+  color: aqua;
   text-decoration: none;
 }
 .nav:hover{
   text-decoration: transparent;
-  color: #fdaf39;
+  color: aqua;
 }
 .links{
   margin-top: 2em;
