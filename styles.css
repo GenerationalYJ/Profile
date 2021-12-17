@@ -55,11 +55,24 @@ a{
 }
 .down-arrow{
   position:relative;
-  font-size: 4rem;
-  top: 105%;
+  font-size: 3rem;
+  top: 200%;
   margin: auto;
   color: white;
   padding: 0%;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  background-color: none;
+}
+.bounce{
+  animation-name: bounce;
+}
+@keyframes bounce {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
 }
 .section-headings{
   color: aqua;
