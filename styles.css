@@ -5,7 +5,6 @@
   min-height: fit-content;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
   scroll-behavior: smooth;
 }
 .my-name{
@@ -35,13 +34,11 @@
   padding: 0.5rem;
   font-weight: bold;
   color: white;
-  text-decoration: none;
 }
 .socials{
   font-size: 2rem;
   padding: 0.5rem;
   color: aqua;
-  text-decoration: none;
 }
 .nav:hover{
   text-decoration: transparent;
@@ -52,4 +49,39 @@
 }
 .socials:hover{
   color: white;
+}
+a{
+  text-decoration: none;
+}
+.down-arrow{
+  position:relative;
+  font-size: 4rem;
+  top: 105%;
+  margin: auto;
+  color: white;
+  padding: 0%;
+}
+.section-headings{
+  color: aqua;
+  text-align: center;
+  font-size: 2rem;
+  top: 100%;
+  padding: 1%;
+  padding-bottom: 0;
+}
+.text{
+  color: white;
+  padding: 0;
+  border: 0;
+}
+.p-links{
+  text-decoration: none;
+  color: aqua;
+}
+.p-links:hover{
+  color: white;
+}
+.about-text{
+  color: white;
+  width: 50%;
 }
