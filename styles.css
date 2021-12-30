@@ -9,7 +9,7 @@
 }
 .my-name{
   color: white;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin: 2rem;
 }
 .container{
@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .small-headings{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin: 0;
   color: aqua;
@@ -30,13 +30,13 @@
   padding-bottom: 1.25em;
 }
 .nav{
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding: 0.5rem;
   font-weight: bold;
   color: white;
 }
 .socials{
-  font-size: 2rem;
+  font-size: 2.8rem;
   padding: 0.5rem;
   color: aqua;
 }
@@ -56,7 +56,7 @@ a{
 .down-arrow{
   position:relative;
   font-size: 3rem;
-  top: 200%;
+  top: 380%;
   margin: auto;
   color: white;
   padding: 0%;
@@ -84,6 +84,7 @@ a{
 }
 .text{
   color: white;
+  font-size: 1.5rem;
   padding: 0;
   border: 0;
 }
@@ -96,5 +97,36 @@ a{
 }
 .about-text{
   color: white;
-  width: 50%;
+}
+.grid-area{
+  grid-template-columns: auto;
+}
+.stack{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4rem;
+}
+.logo-size{
+  width: 8rem;
+  height: 8rem;
+}
+.js-size{
+  width: 8.12rem;
+  height: 8.12rem;
+}
+.text-centred{
+  color: white;
+  font-size: 1.5rem;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+.stack-name{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0;
+  border: 0;
+  text-align: center;
 }
