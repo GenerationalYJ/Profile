@@ -1,6 +1,6 @@
 *{
   background-color: #2d2f36;
-  font-family:"Roboto Mono",monospace;
+  font-family:"roboto mono",monospace;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -56,7 +56,7 @@ a{
 .down-arrow{
   position:relative;
   font-size: 5.5vh;
-  top: 20vh;
+  top: 19vh;
   margin: auto;
   color: white;
   padding: 0%;
@@ -136,7 +136,7 @@ a{
 }
 .flex img:hover{
   transform: scale(1.05);
-  transition: all ease;
+  transition: 0.5s all ease;
   border-radius: 1rem;
 }
 .card{
@@ -157,4 +157,69 @@ a{
 .projects-img{
   border: 0.2rem solid aqua;
   border-radius: 0.5rem;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+textarea{
+  box-sizing: border-box;
+  width: 30vw;
+  resize: none;
+  padding: 0.5rem;
+  outline: none;
+  background-color: aqua;
+  color: black;
+}
+textarea:focus {
+  background-color: white;
+  outline: none;
+}
+textarea:focus::placeholder {
+  color: transparent;
+}
+.email,.name{
+  height: 4vh;
+}
+.email,.name,.message{
+  background-color: aqua;
+  width: 25vw;
+  padding: 0.2rem;
+  outline: none;
+  border: 1px solid #2d2f36;
+  font-weight: 600;
+}
+.message{
+  height: 10vh;
+}
+input:focus{
+  background-color: white;
+  outline: none;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.space{
+  margin-bottom: 0.5rem;
+}
+::placeholder{
+  color: #2d2f36;
+}
+.send{
+  padding: 0.8rem;
+  width: 5rem;
+  color: #2d2f36;
+  background-color: aqua;
+  outline: none;
+  border: 1px solid #2d2f36;
+  font-weight: 600;
+}
+.send:hover{
+  background-color: white;
+  color: #2d2f36;
+  cursor: pointer;
+  transition: 0.5s ease;
 }

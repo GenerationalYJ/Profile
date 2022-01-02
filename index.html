@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yonis Jamal | Software Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/69086d90cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -96,23 +98,27 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <section id="contact">
-            <form class="contact" action="POST" data-netlify="true">
-                <div class="fields">
-                    <div class="field">
-                        <input type="text" name="name" placeholder="Name" required/>
+    <section id="contact">
+        <div>
+            <h2 class="section-headings">Contact Me</h2>
+        </div>
+        <p class="text-centred">Feel free to get in touch!</p>
+        <footer class="footer">
+            <section id="contact">
+                <form class="contact" action="POST" data-netlify="true">
+                    <div>
+                            <input class="name space" type="text" name="name" placeholder="Name" required/>
+                        <div>
+                            <input class="email space" type="text" name="email" placeholder="Email" required/>
+                        </div>
+                        <div>
+                            <textarea class="message space" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <div>
+                            <input class="send space" type="submit" value="Send"/></li>
+                        </div>
                     </div>
-                    <div class="field">
-                        <input type="text" name="email" placeholder="Email" required/>
-                    </div>
-                    <div class="field">
-                        <textarea name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="send">
-                        <input type="submit" value="Send"/></li>
-                    </div>
-                </div>
-            </form>
+                </form> 
+    </section>
 </body>
 </html>
