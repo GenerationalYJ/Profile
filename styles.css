@@ -9,7 +9,7 @@
 }
 .my-name{
   color: white;
-  font-size: 4.5rem;
+  font-size: 6.5vh;
   margin: 2rem;
 }
 .container{
@@ -21,7 +21,7 @@
   justify-content: center;
 }
 .small-headings{
-  font-size: 3rem;
+  font-size: 4.5vh;
   font-weight: bold;
   margin: 0;
   color: aqua;
@@ -30,13 +30,13 @@
   padding-bottom: 1.25em;
 }
 .nav{
-  font-size: 2.8rem;
+  font-size: 4.5vh;
   padding: 0.5rem;
   font-weight: bold;
   color: white;
 }
 .socials{
-  font-size: 2.8rem;
+  font-size: 4.5vh;
   padding: 0.5rem;
   color: aqua;
 }
@@ -55,8 +55,8 @@ a{
 }
 .down-arrow{
   position:relative;
-  font-size: 3rem;
-  top: 380%;
+  font-size: 5.5vh;
+  top: 20vh;
   margin: auto;
   color: white;
   padding: 0%;
@@ -77,14 +77,14 @@ a{
 .section-headings{
   color: aqua;
   text-align: center;
-  font-size: 2rem;
+  font-size: 4vh;
   top: 100%;
   padding: 1%;
   padding-bottom: 0;
 }
 .text{
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.8vh;
   padding: 0;
   border: 0;
 }
@@ -98,22 +98,18 @@ a{
 .about-text{
   color: white;
 }
-.grid-area{
-  grid-template-columns: auto;
-}
 .stack{
   display: flex;
-  align-items: center;
   justify-content: center;
   column-gap: 4rem;
 }
 .logo-size{
-  width: 8rem;
-  height: 8rem;
+  width: 15vh;
+  height: 15vh;
 }
 .js-size{
-  width: 8.12rem;
-  height: 8.12rem;
+  width: 15.62vh;
+  height: 15.62vh;
 }
 .text-centred{
   color: white;
@@ -129,4 +125,36 @@ a{
   padding: 0;
   border: 0;
   text-align: center;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  gap: 1.5rem;
+}
+.flex img:hover{
+  transform: scale(1.05);
+  transition: all ease;
+  border-radius: 1rem;
+}
+.card{
+  justify-content: space-between;
+  padding: 0.2rem;
+}
+.height{
+  height: 25vh;
+}
+.socials-projects{
+  font-size: 2rem;
+  padding: 0.5rem;
+  color: white;
+}
+.socials-projects:hover{
+  color: aqua;
+}
+.projects-img{
+  border: 0.2rem solid aqua;
+  border-radius: 0.5rem;
 }
