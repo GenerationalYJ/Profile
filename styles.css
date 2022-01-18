@@ -1,11 +1,14 @@
 *{
-  background-color: #2d2f36;
-  font-family:"roboto mono",monospace;
+  font-family:'roboto mono','monospace';
   box-sizing: border-box;
   min-height: fit-content;
 }
 *, *:before, *:after {
   scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  background-color: #2d2f36;
 }
 .my-name{
   color: white;
@@ -82,20 +85,21 @@ a{
   padding: 1%;
   padding-bottom: 0;
 }
+#about{
+  background-color: #2d2f36;
+}
+#stack{
+  background-color: #2d2f36;
+}
 .text{
   color: white;
   font-size: 2.8vh;
-  padding: 0;
-  border: 0;
 }
 .p-links{
   text-decoration: none;
   color: aqua;
 }
 .p-links:hover{
-  color: white;
-}
-.about-text{
   color: white;
 }
 .stack{
